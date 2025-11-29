@@ -5,7 +5,7 @@ import { EffectComposer, Bloom } from "@react-three/postprocessing";
 
 export default function FlowerScene() {
   return (
-    <div className="w-full h-[450px] md:h-[550px]">
+    <div className="w-full h-[350px] md:h-[450px]">
       <p>Ada Bunga buat kamu hehehe💗</p>
       <Canvas camera={{ position: [2, 2, 4] }}>
         <ambientLight intensity={0.6} />
