@@ -6,6 +6,7 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import OpeningIntro from "./components/OpeningIntro";
 import ClosingMessage from "./components/ClosingMessage";
+import Harapan from "./components/Harapan";
 export default function App() {
   return (
     <div className="min-h-screen font-sans">
@@ -17,6 +18,7 @@ export default function App() {
         <Gift />
         <Gallery />
         <ClosingMessage />
+        <Harapan />
       </main>
       <Footer />
     </div>
