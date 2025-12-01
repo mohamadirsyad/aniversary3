@@ -2,8 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const API_URL =
-  "https://backend-anive-3-hj97z2wij-icaddds-projects.vercel.app/api/jawaban";
+const API_URL = "https://backend-anive-3.vercel.app/api/jawaban";
 
 const HarapanPage = () => {
   const navigate = useNavigate();
